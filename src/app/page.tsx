@@ -11,7 +11,7 @@ export default function Home() {
       <StarField starCount={120} className="h-screen">
       <Navbar />
       <div className='flex flex-col p-12 justify-center items-center'>
-        <Image src={source} alt='ModularPrompts logo' className='size-64 p-8 box-content'/>
+        <Image src={source} alt='ModularPrompts logo' className='w-1/12 p-8 box-content'/>
         <h1 className="text-9xl pb-4">ModularPrompts</h1>
         <p className='w-1/3 text-center pb-4 text-xl'>ModularPrompts offers an extensible library of prompts and premade tools
 to assist in the production of LLM workflows and Agents.</p>
