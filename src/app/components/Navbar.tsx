@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '../images/newlogoTransparent.png';
+import logo from '../images/logo.png';
 
 export default function Navbar() {
     return (
