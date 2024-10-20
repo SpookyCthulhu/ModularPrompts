@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        customFont: ['"Custom Font"', "sans-serif"],
+        prompt: ['"Prompt"', "sans-serif"],
         // Add more custom font families as needed
       },
     },

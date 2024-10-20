@@ -7,7 +7,7 @@ import StarField from './components/StarField';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-400 via-purple-600 to-blue-700">      
+    <div className="min-h-screen font-prompt bg-gradient-to-br from-purple-400 via-purple-600 to-blue-700">      
       <StarField starCount={120} className="h-screen">
       <Navbar />
       <div className='flex flex-col p-12 justify-center items-center'>
@@ -17,7 +17,7 @@ export default function Home() {
 to assist in the production of LLM workflows and Agents.</p>
         <Button text='Login' link=""/>
         <Button text='Register' link=""/>
-        <Link href="">Learn More</Link>
+        <Link href=""><p className='underline'>Learn More</p></Link>
       </div>
       </StarField>
     </div>
