@@ -1,4 +1,5 @@
 "use client";
+
 // PromptUploadForm.tsx
 import React, { useState } from 'react';
 
@@ -45,12 +46,12 @@ const PromptUploadForm: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gray-100">
+    <div className="h-full w-full bg-gray-100 top-0">
       <div className="h-full w-full p-6 grid grid-cols-2 gap-6">
         {/* Left Column - Prompt Input */}
         <div className="col-span-1 flex flex-col w-full">
           <textarea
-            className="w-full h-[calc(100vh-48px)] p-4 border rounded-lg resize-none bg-white text-gray-600 placeholder-gray-400"
+            className="w-full h-[100%] p-4 border rounded-lg resize-none bg-white text-gray-600 placeholder-gray-400"
             placeholder="Prompt"
             value={formData.prompt}
             onChange={(e) => setFormData(prev => ({ ...prev, prompt: e.target.value }))}
