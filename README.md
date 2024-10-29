@@ -1,4 +1,5 @@
 # ModularPrompts
 A webiste for building AI prompt components that can be chained together to build powerful tools and agents.
 
-![Screenshot from 2024-10-20 05-13-07](https://github.com/user-attachments/assets/f4ce4cbd-a259-4bf9-b18c-dbc32ff9d46d)
+Site Mockup Design
+![image](https://github.com/user-attachments/assets/c4c413bc-4b9b-4c53-875d-24a9a83e01b8)
