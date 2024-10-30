@@ -1,14 +1,13 @@
 import Navbar from '../components/Navbar';
 import PromptUploadForm from '../components/PromptUploadForm';
+import StarField from '../components/StarField';
 
 export default function Create() {
     return (
-        <>
-            <Navbar />
-            <div className="h-[calc(100vh-64px)] bg-white flex flex-row w-full h-full justify-center items-center">
-                {/* <div className='size-96 m-12 rounded-lg shadow-lg border-2 border-blue-500'></div> */}
+        <div className="min-h-screen font-prompt bg-gradient-to-br from-purple-400 via-purple-600 to-blue-700">      
+            <StarField starCount={300} className="h-screen">            <Navbar />
                 <PromptUploadForm/>
-            </div>
-        </>
+            </StarField>
+        </div>
     );
 }
