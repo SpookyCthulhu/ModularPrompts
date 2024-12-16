@@ -13,6 +13,7 @@
     "@react-oauth/google": "^0.12.1",
     "next": "14.2.15",
     "next-auth": "^4.24.8",
+    "openai": "^4.76.3",
     "react": "^18",
     "react-dom": "^18"
   },
